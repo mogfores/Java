@@ -19,7 +19,7 @@ public class Main {
 	
 	//PARA LER UM NUMERO INTEIRO
 	
-    //Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
 	
 	//int x;
 	//x = sc.nextInt();
@@ -65,7 +65,7 @@ public class Main {
 	
 	//sc.close();
 		
-	// PARA LER UM TEXTO ATÉ A QUEBRA DE LINHA
+	//PARA LER UM TEXTO ATÉ A QUEBRA DE LINHA
 	
 	//Scanner sc = new Scanner(System.in);
 	
