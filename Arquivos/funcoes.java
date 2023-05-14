@@ -7,12 +7,15 @@ public class Main {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		int higher = max(a, b, c);
-		showResult(higher);
+		
+		int higher = max(a, b, c); // chamada da funcao
+		showResult(higher);  // chamada da funcao
+		
 		sc.close();
 	}
-
-	public static int max(int x, int y, int z) {
+// criacao dentro do primeiro colchetes
+	
+	public static int max(int x, int y, int z) { // int: retorno de valor, return aux
 		int aux;
 		if (x > y && x > z) {
 			aux = x;
@@ -24,7 +27,7 @@ public class Main {
 		return aux;
 	}
 
-	public static void showResult(int value) {
+	public static void showResult(int value) { // void por nao tem retorno de funcao, apenas imprime da na tela (void)
 		System.out.println("Higher = " + value);
 	}
 }
